@@ -5,7 +5,7 @@
             "project_name": "Random Quote Generator",
             "description": "An application that displays random famous quotes",
             "technologies": ["CSS","JavaScript", "HTML" ],
-            "live_link": "https://www.twitch.tv/aplatypuss",
+            "live_link": "https://delib-random-quote-generator.netlify.app/",
             "github_link": "https://github.com/deliDB/random-quote-generator",
             "image_urls":["/static/images/p0_1.png", "/static/images/p0_2.png", "/static/images/p0_3.png"]
         },
@@ -14,7 +14,7 @@
             "project_name": "Data Pagination and Filtering",
             "description": "An app that contains student information for 42 students and utilizes pagination to enhance usability",
             "technologies": ["JavaScript","CSS", "HTML" ],
-            "live_link": "https://www.twitch.tv/aplatypuss",
+            "live_link": "https://delib-data-pagination.netlify.app/",
             "github_link": "https://github.com/deliDB/data-pagination-and-filtering",
             "image_urls":["/static/images/p1_1.png", "/static/images/p1_2.png", "/static/images/p1_3.png"]
         },
@@ -23,7 +23,7 @@
             "project_name": "Interactive Form",
             "description": "An interactive registration form for a fictional full stack conference",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://www.twitch.tv/aplatypuss",
+            "live_link": "https://delib-interactive-form.netlify.app/",
             "github_link": "https://github.com/deliDB/interactive-form",
             "image_urls": ["/static/images/p2_1.png", "/static/images/p2_2.png","/static/images/p2_3.png" ]
         },
@@ -32,7 +32,7 @@
             "project_name": "OOP Phrase Hunter Game ",
             "description": "A word guessing game that utilizes JS and Object Oriented Programming",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link": "https://www.twitch.tv/aplatypuss",
+            "live_link": "https://delib-phrase-hunter-game.netlify.app/",
             "github_link": "https://github.com/deliDB/OOP-phrase-hunter-game",
             "image_urls": ["/static/images/p3_1.png", "/static/images/p3_2.png", "/static/images/p3_3.png"]
         },
@@ -41,7 +41,7 @@
             "project_name": "Public API Requests",
             "description": "An employee directory for a fictional company called Awesome Startup",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link": "https://www.twitch.tv/aplatypuss",
+            "live_link": "https://delib-public-api-requests.netlify.app/",
             "github_link": "https://github.com/deliDB/public-api-requests",
             "image_urls": ["/static/images/p4_1.png", "/static/images/p4_2.png", "/static/images/p4_3.png"]
         }
