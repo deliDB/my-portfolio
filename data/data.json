@@ -7,7 +7,7 @@
             "technologies": ["CSS","JavaScript", "HTML" ],
             "live_link": "https://www.twitch.tv/aplatypuss",
             "github_link": "https://github.com/deliDB/random-quote-generator",
-            "image_urls":["https://place-puppy.com/550x550", "https://place-puppy.com/1200x550"]
+            "image_urls":["/static/images/p0_1.png", "/static/images/p0_2.png", "/static/images/p0_3.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript","CSS", "HTML" ],
             "live_link": "https://www.twitch.tv/aplatypuss",
             "github_link": "https://github.com/deliDB/data-pagination-and-filtering",
-            "image_urls":["https://place-puppy.com/550x550", "https://place-puppy.com/1200x550"]
+            "image_urls":["/static/images/p1_1.png", "/static/images/p1_2.png", "/static/images/p1_3.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://www.twitch.tv/aplatypuss",
             "github_link": "https://github.com/deliDB/interactive-form",
-            "image_urls": ["https://place-puppy.com/550x550", "https://place-puppy.com/1200x550"]
+            "image_urls": ["/static/images/p2_1.png", "/static/images/p2_2.png","/static/images/p2_3.png" ]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": "https://www.twitch.tv/aplatypuss",
             "github_link": "https://github.com/deliDB/OOP-phrase-hunter-game",
-            "image_urls": ["https://place-puppy.com/550x550", "https://place-puppy.com/1200x550"]
+            "image_urls": ["/static/images/p3_1.png", "/static/images/p3_2.png", "/static/images/p3_3.png"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": "https://www.twitch.tv/aplatypuss",
             "github_link": "https://github.com/deliDB/public-api-requests",
-            "image_urls": ["https://place-puppy.com/550x550", "https://place-puppy.com/1200x550"]
+            "image_urls": ["/static/images/p4_1.png", "/static/images/p4_2.png", "/static/images/p4_3.png"]
         }
     ]
 }
