@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+     
+    h1 My Portfolio
+
+    //-What this project is, its purpose, what it's supposed to accomplish, etc. 
+    p Projects I've made in my pursuit to become a Full Stack Developer.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects
+        .cell 
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`) 
+            h5 #{project.project_name}
+
+      
+

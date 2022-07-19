@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='/static/images/profile_image.jpg', alt='photo of middle aged woman')
+        .dev-intro-box
+
+          
+          h5 Delicia Bills
+
+          //- Who, what, and why
+          p Software Engineer Apprentice | Life Long Learner | IT Support
+
+          
+          a(href='/about') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          
+          span Delicia Bills
+
+      block content
+
+  script(src='/static/js/script.js')
