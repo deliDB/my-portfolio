@@ -1,0 +1,6 @@
+extends layout.pug
+
+block content
+    section.error
+        h1= `Status: ${err.status} - ${err.message} `
+        a(href='/') Home

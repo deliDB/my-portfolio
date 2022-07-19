@@ -362,3 +362,16 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/* 
+  Error page styles 
+*/
+.error {
+  margin: auto;
+  text-align: center;
+  padding: 300px
+}
+
+.error a {
+  font-weight: bold;
+}

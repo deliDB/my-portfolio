@@ -18,7 +18,8 @@ app.get('/', (req, res, next) => {
 
 //GET about page
 app.get('/about', (req, res, next) => {
-    res.render('about');  
+    //res.render('about');  
+    error.status = 500;
 });
 
 //GET project page
@@ -40,7 +41,7 @@ app.use((req, res, next) => {
     //Create new error to handle non-existent page routes
     const err = new Error('err');
     err.status = 404;
-    err.message = "Oops, page not found. Looks like this page doesn't exist.";
+    err.message = "Oops! Page not found. Looks like this page doesn't exist.";
     next(err);
 }); 
 
@@ -48,17 +49,17 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     console.log('Handling a global error');
     if(err.status === 404){
-        res.send(err.message)
-        console.error(err.status, err.message)
+        res.render('not_found', { err })
+        //res.send(err.message)
+        console.error(`${err.status} - ${err.message}`)
         
     } else {
         err.status = err.status || 500;
         err.message = "There was an error with the server."
-        res.send(err.message);
-        console.error(err.status, err.message);
+        res.render('error', { err })
+        //res.send(err.message);
+        console.error(`${err.status} - ${err.message}`);
     }
-    
-
 });
 
 
