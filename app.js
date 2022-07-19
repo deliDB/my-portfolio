@@ -29,7 +29,7 @@ app.get('/project/:id', (req, res, next) => {
     if(project){
         res.render('project', { project });
     } else {
-        res.sendStatus(404);
+        next();
     }
 });
 
@@ -41,17 +41,23 @@ app.use((req, res, next) => {
     const err = new Error('err');
     err.status = 404;
     err.message = "Oops, page not found. Looks like this page doesn't exist.";
-    console.error(err);
+    next(err);
 }); 
 
 //Global error handler
 app.use((err, req, res, next) => {
     console.log('Handling a global error');
+    if(err.status === 404){
+        res.send(err.message)
+        console.error(err.status, err.message)
+        
+    } else {
+        err.status = err.status || 500;
+        err.message = "There was an error with the server."
+        res.send(err.message);
+        console.error(err.status, err.message);
+    }
     
-    err.status = err.status || 500;
-    err.message = "There was an error with the server."
-    res.send(err.message);
-    console.error(err.status, err.message);
 
 });
 
