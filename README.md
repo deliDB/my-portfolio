@@ -7,7 +7,7 @@
     <li>Changed background of sidebar</li>
     <li>Changed text color of sidebar</li>
     <li>Added hover effect on each project image</li>
-<ul>
+</ul>
 
 <h3>Installation</h3>
 Download project files, install the dependencies, and run <strong>npm start</strong> in the terminal.
